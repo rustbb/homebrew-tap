@@ -4,28 +4,28 @@
 class Rustbb < Formula
   desc "Lightweight bulletin board in one executable"
   homepage "https://rustbb.github.io"
-  version "0.7.1" # the archives' names end in the architecture, which Homebrew takes for one
+  version "0.8.0" # the archives' names end in the architecture, which Homebrew takes for one
   license :cannot_represent # the RustBB License: free to use, binaries only
 
   on_macos do
     on_arm do
-      url "https://github.com/rustbb/releases/releases/download/v0.7.1/rustbb-0.7.1-macos-arm64.tar.gz"
-      sha256 "f256869f714e39d6fb4583de1b8105aebcc1aaf1e0275af37be0b258ba9eb592"
+      url "https://github.com/rustbb/releases/releases/download/v0.8.0/rustbb-0.8.0-macos-arm64.tar.gz"
+      sha256 "f28c5ff3a3af52da2efc679b3ad3226770c368d8c86331221bb335d399d7468c"
     end
     on_intel do
-      url "https://github.com/rustbb/releases/releases/download/v0.7.1/rustbb-0.7.1-macos-x86_64.tar.gz"
-      sha256 "e3e881d23e144bc4fb3ec14892a17ab5098a959e04160be2d4dd19ba8238c06b"
+      url "https://github.com/rustbb/releases/releases/download/v0.8.0/rustbb-0.8.0-macos-x86_64.tar.gz"
+      sha256 "806707fc3661f7db19db60e987f36d17edd9539ad70aca62b1a3c5ec960a7ddc"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/rustbb/releases/releases/download/v0.7.1/rustbb-0.7.1-linux-x86_64.tar.gz"
-      sha256 "fb664165b575311bc0d6d8b802bb995a86fdedd0f594786a61ecd4779eaa2473"
+      url "https://github.com/rustbb/releases/releases/download/v0.8.0/rustbb-0.8.0-linux-x86_64.tar.gz"
+      sha256 "daeaa1ad955b6aea5b84181fe1bfee08e5802c6747bc0190d469fe5b5c174808"
     end
     on_arm do
-      url "https://github.com/rustbb/releases/releases/download/v0.7.1/rustbb-0.7.1-linux-arm64.tar.gz"
-      sha256 "15adbb894d75250cb23a48e394efe08bf165d35fd385d5eb2bbbb093e6b1b52f"
+      url "https://github.com/rustbb/releases/releases/download/v0.8.0/rustbb-0.8.0-linux-arm64.tar.gz"
+      sha256 "2b736e93cd1d8e78df15327a18bdecb24afee50b1bf7ca131059318f7ad884e5"
     end
   end
 
